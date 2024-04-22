@@ -31,31 +31,6 @@ public class BookStoreApplication {
 
         BasicConfigurator.configure();
 
-        /*
-        TODO: 1.  Program basic features & Run the application - Basic Stuff
-                i. Create User
-                ii. Fetch Users
-                iii. Create Book
-                iv. Fetch Books
-                v. Add books to Cart & Get Cart
-                vi. Check out cart & init Order
-                vii. Execute Order & Get Orders
-
-        TODO: 2. Impl more OOP
-                i. Strategy pattern
-
-        TODO: 3. Document verify & refactor
-                i. UML
-                ii. Flow Chart
-                iii. App features
-                iv. More possible OOP & design patterns for better architecture
-                v. Limitations & Solutions - multithreading, Queue
-                vi. Scalability
-                vii. Security
-
-        TODO: 4. Test Cases - JUnit
-        **/
-
         UserService userService = UserServiceImpl.getUserServiceInstance();
         BookService bookService = BookServiceImpl.getBookServiceInstance();
         CartService cartService = CartServiceImpl.getCartServiceInstance();
